@@ -1,0 +1,94 @@
+body {
+	background-color: rgb(245,245,245);
+	color: #56C5E3;
+	font-size: 25px;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-family: courier;
+	color: #8FDADD;
+	font-weight: light;
+}
+
+h2 {
+	font-family: courier;
+	color: #F06543;
+	font-size: 28px;
+}
+
+a {
+	color: #56C5E3;;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F06543;
+	font-size: 24px;
+}
+
+
+/* classes et id */
+
+#banner {
+	text-align: center;
+	background-image: url("https://picsum.photos/1300/600/?gravity=east");
+	background-size: cover;
+	padding: 100px;
+	color: white;
+	text-shadow: 1px 1px 5px #292419;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#footer {
+	padding: 50px;
+	background-color: #292419;
+	color: #F8F9F8;
+	text-align: center;
+	font-size: 15px;
+}
+
+#footer ul{
+	padding : 0;
+}
+
+
+#footer li{
+	list-style-type: none;
+	list-style-position: center;
+	padding : 0 0.5em;
+	display: inline;
+}
+
+.cardez {
+	text-align: center;
+	padding: 80px;
+	font-family: courier;
+	color: #8FDADD;
+}
+
+.cardez h1{
+	font-family: courier;
+	color: #8FDADD;
+	font-size: 28px;
+}
+
+.cardez h2{
+	font-family: courier;
+	color: #F06543;
+	font-size: 28px;
+}
+
+.social i {
+	color: white;
+	text-align: center;
+}
+
+.social:hover i {
+	color:#F06543;
+	text-align: center;
+}
